@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle g-webfonts",
+        "command": "g-webfonts:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "g-webfonts",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "g-webfonts:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
